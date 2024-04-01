@@ -90,6 +90,8 @@ Product ID: ea70
 Name: Silicon Labs CP210x UART Bridge
 Serial: 2222
 ```
+If it fail try again, be sure to check again device's bus and dev (`lsusb`)
+
 
 3. Optional: create specific udev rules at `/etc/udev/rules.d/htb.rules`:
 ```
